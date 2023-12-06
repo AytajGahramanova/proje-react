@@ -1,0 +1,86 @@
+.footer {
+  background-color: #bc5148;
+  padding: 20px;
+  & h4 {
+    color: white;
+    margin-bottom: 10px;
+  }
+  & p {
+    color: rgba(255, 255, 255, 0.6);
+    max-width: 300px;
+    font-size: 14px;
+    margin-bottom: 10;
+  }
+  & a {
+    color: #f4b214;
+    text-decoration: none;
+  }
+}
+.footer-wrapper {
+  display: flex;
+  flex-direction: column;
+  & .footer-top{
+    display: flex   ;
+  }
+}
+.contact{
+    margin-right: 50px;
+}
+.address {
+  display: flex;
+  flex-direction: column;
+}
+.address-column {
+  display: flex;
+  margin: 8px;
+}
+.link-wrapper{
+    margin-right: 20%;
+}
+.links-a {
+  display: flex;
+  flex-direction: column;
+  & a {
+    margin: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    &:hover {
+      color: white;
+      transition: all 0.3s;
+    }
+  }
+}
+.social{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.icons{
+    display: flex;
+    align-items: center;
+    color: #f4b214;
+    font-size: 20px;
+    & .css-i4bv87-MuiSvgIcon-root {
+        font-size: 16px!important;
+    }
+}
+.icon-border{
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid  rgba(255,255,255,0.1);
+    width: 30px;
+    height: 30px;
+    margin: 5px;
+    &:hover{
+        background-color: white;
+        color: black;
+        transition: all .3s;
+        cursor: pointer;
+    }
+}
+.copyright{
+    text-align: center;
+    padding: 40px 20px;
+}

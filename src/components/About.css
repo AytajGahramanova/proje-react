@@ -1,28 +1,32 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 .about-children {
-    position: absolute;
-    display: flex;
-    flex-direction: column;
-    margin: 15%;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  margin: 10%;
+  top: 50px;
 }
 
 button {
-    background-color: #bc5148;
-    color: white;
-    border: none;
-    padding: 15px 20px;
-    border-radius: 5px;
-    max-width: 200px;
+  background-color: #bc5148;
+  color: white;
+  border: none;
+  padding: 15px 20px;
+  border-radius: 5px;
+  max-width: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .swiper-button-prev,
-.swiper-button-next{
-    color: #fff;
+.swiper-button-next {
+  color: #fff;
 }
-.swiper-pagination-bullet.swiper-pagination-bullet-active{
-    background-color: #bc5148;
+.swiper-pagination-bullet.swiper-pagination-bullet-active {
+  background-color: #bc5148;
 }

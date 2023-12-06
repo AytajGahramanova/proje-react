@@ -18,10 +18,10 @@ const Main = () => {
         mousewheel={true}
         keyboard={true}
         loop={true}
-        // autoplay={{
-        //   delay: 2500,
-        //   disableOnInteraction: false
-        // }}
+        autoplay={{
+          delay: 2500,
+          disableOnInteraction: false
+        }}
         modules={[Navigation, Pagination, Mousewheel, Keyboard, Autoplay]}
         className="mySwiper"
       >
@@ -29,7 +29,7 @@ const Main = () => {
           <div className='about-children'>
             <p style={{fontSize: "35px"}}>𝒞𝑒𝓁𝒾𝓃𝑒 ℛ𝒾𝒸𝒽𝒶𝓇𝒹𝓈𝑜𝓃,14 𝓎𝑒𝒶𝓇𝓈 𝑜𝓁𝒹</p>
             <h2 style={{fontSize: "40px", marginBottom: "10px"}}><b>NEEDS A CARING PARENTS</b></h2>
-            <p style={{fontSize: "24px", maxWidth: "700px"}}>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem deserunt quam dicta omnis praesentium.</p>
+            <p style={{fontSize: "24px", maxWidth: "600px"}}>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem deserunt quam dicta omnis praesentium.</p>
             <button style={{marginTop:20}}>ADOPT HER NOW!</button>
           </div>
 
