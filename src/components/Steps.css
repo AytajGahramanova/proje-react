@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+.left img{
+    width: 500px;
+}
+.righ{
+    margin: 60px;
+}
+.adopt{
+    border: 2px solid #bc5148;
+    background-color: #fff;
+    color: #bc5148;
+    font-size: 16px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.adopt:hover{
+    background-color: #bc5148;
+    color: #fff;
+    transition: all .3s;
+}

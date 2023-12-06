@@ -1,0 +1,63 @@
+.header-wrapper {
+    background-color: #bc5148;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.top-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.icon {
+    margin: 10px;
+
+    &:hover {
+        transition: all .3s;
+        color: #fff;
+        cursor: pointer;
+    }
+}
+
+.css-i4bv87-MuiSvgIcon-root {
+    font-size: 15px !important;
+}
+
+.header-right {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.login {
+    background-color: #f4b214;
+    margin: 1px;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bottom-header {
+    margin: 20px;
+    & a {
+        text-decoration: none;
+        color: #000;
+        margin: 10px;
+    }
+}
+.active{
+    color: red!important;
+}
+.links a{
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 17px;
+}

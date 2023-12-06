@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.about-children {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    margin: 15%;
+}
+
+button {
+    background-color: #bc5148;
+    color: white;
+    border: none;
+    padding: 15px 20px;
+    border-radius: 5px;
+    max-width: 200px;
+}
+.swiper-button-prev,
+.swiper-button-next{
+    color: #fff;
+}
+.swiper-pagination-bullet.swiper-pagination-bullet-active{
+    background-color: #bc5148;
+}
