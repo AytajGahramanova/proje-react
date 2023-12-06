@@ -43,7 +43,7 @@ const Main = () => {
             <p style={{fontSize: "35px", color: "#fff"}}>ℳ𝒶𝓇𝓀 ℛ𝑜𝒹𝓇𝒾𝑔𝓊𝓏𝑒𝓇𝒹, 12 𝓎𝑒𝒶𝓇𝓈 𝑜𝓁𝒹</p>
             <h2 style={{fontSize: "40px", marginBottom: "10px", color: "#fff"}}><b>NEEDS A CARING PARENTS</b></h2>
             <p style={{fontSize: "24px", maxWidth: "700px", color: "#fff"}}>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem deserunt quam dicta omnis praesentium.</p>
-            <button style={{marginTop:20}}>ADOPT HER NOW!</button>
+            <button style={{marginTop:20}}>ADOPT HIM NOW!</button>
           </div>
           <div style={{width: "100%", height: "100%"}}>
           <img src={Image2} alt="salam" style={{ width: "100%",height: "800px", objectFit:"cover"}} />
